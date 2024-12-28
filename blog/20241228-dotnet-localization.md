@@ -8,7 +8,7 @@
 
 ### 検証用 Web アプリを作成
 
-```bash:bash
+```bash
 $ dotnet new web --name MnrWeb 
 
 $ cd MnrWeb
@@ -21,13 +21,13 @@ Hello World!
 
 ## Program.cs を多言語化
 
-```bash:bash
+```bash
 $ code Program.cs
 ```
 
 変更前のコード。
 
-```cs:Program.cs
+```cs
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
@@ -38,8 +38,7 @@ app.Run();
 
 変更後のコード。
 
-
-```cs:Program.cs
+```cs
 using System.Globalization;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.Extensions.Localization;
@@ -70,7 +69,7 @@ app.Run();
 
 ### 辞書ファイルを作成
 
-```bash:bsh
+```bash
 $ mkdir Resources
 
 $ cat <<EOF > Resources/Program.en-US.resx
@@ -94,7 +93,7 @@ EOF
 
 ### 動作確認
 
-```bash:bash
+```bash
 $ dotnet run
 
 $ curl http://localhost:5261
@@ -115,4 +114,4 @@ $ curl "http://localhost:5261/?culture=ja-JP"
 
 ## 参考
 
-https://learn.microsoft.com/ja-jp/aspnet/core/fundamentals/localization/select-language-culture?view=aspnetcore-8.0
+[https://learn.microsoft.com/ja-jp/aspnet/core/fundamentals/localization/select-language-culture?view=aspnetcore-8.0](https://learn.microsoft.com/ja-jp/aspnet/core/fundamentals/localization/select-language-culture?view=aspnetcore-8.0)
