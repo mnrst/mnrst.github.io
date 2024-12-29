@@ -9,7 +9,7 @@ plugins:
 header_pages:
   - about.md
 minima:
-  skin: auto
+  skin: classic
   date_format: "%Y年%m月%d日"
   social_links:
     - { platform: github,  user_url: "https://github.com/mnrst" }
