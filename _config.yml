@@ -15,4 +15,4 @@ minima:
 minima:
   social_links:
     - { platform: github,  user_url: "https://github.com/mnrst" }
-    - { platform: x, user_url: "https://x.com/stmnr" }
+    - { platform: twitter, user_url: "https://twitter.com/stmnr" }
