@@ -3,7 +3,6 @@ layout: post
 title: .NET Web アプリの多言語対応を試してみた
 categories: .NET
 ---
-## .NET Web アプリの多言語対応を試してみた
 
 アプリの多言語対応と言えば、画面上に表示される文言が英語だったり日本語だったりの事だと認識しています。
 
@@ -11,7 +10,7 @@ categories: .NET
 
 今回は、.NET Web アプリで教科書的な多言語対応（グローバライズとローカライズ）を試してみました。
 
-### 検証用 Web アプリを作成
+## 検証用 Web アプリを作成
 
 ```bash
 $ dotnet new web --name MnrWeb 
@@ -72,7 +71,7 @@ app.MapGet("/", (IStringLocalizer<Program> localizer) => localizer["Hello"].Valu
 app.Run();
 ```
 
-### 辞書ファイルを作成
+## 辞書ファイルを作成
 
 ```bash
 $ mkdir Resources
@@ -96,7 +95,7 @@ $ cat <<EOF > Resources/Program.ja-JP.resx
 EOF
 ```
 
-### 動作確認
+## 動作確認
 
 ```bash
 $ dotnet run
