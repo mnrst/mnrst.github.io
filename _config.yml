@@ -10,3 +10,5 @@ minima:
   skin: classic
 header_pages:
   - about.md
+minima:
+  date_format: "%Y年%m月%d日"
