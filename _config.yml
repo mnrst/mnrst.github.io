@@ -1,6 +1,7 @@
 title: mnrst
 description: クラウドエンジニアの検証生活
 theme: minima
+lang: ja
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
