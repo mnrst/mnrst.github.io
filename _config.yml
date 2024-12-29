@@ -8,3 +8,5 @@ plugins:
   - jekyll-seo-tag
 minima:
   skin: classic
+header_pages:
+  - about.md
