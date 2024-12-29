@@ -12,3 +12,7 @@ header_pages:
   - about.md
 minima:
   date_format: "%Y年%m月%d日"
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/mnrst" }
+    - { platform: x, user_url: "https://x.com/stmnr" }
