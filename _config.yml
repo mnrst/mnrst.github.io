@@ -6,11 +6,10 @@ google_analytics: G-9H171CX9NV
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-minima:
-  skin: classic
 header_pages:
   - about.md
 minima:
+  skin: auto
   date_format: "%Y年%m月%d日"
   social_links:
     - { platform: github,  user_url: "https://github.com/mnrst" }
