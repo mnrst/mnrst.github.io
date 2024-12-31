@@ -117,4 +117,4 @@ $ curl "http://localhost:5261/?culture=ja-JP"
 
 ## 参考
 
-[https://learn.microsoft.com/ja-jp/aspnet/core/fundamentals/localization/select-language-culture?view=aspnetcore-8.0](https://learn.microsoft.com/ja-jp/aspnet/core/fundamentals/localization/select-language-culture?view=aspnetcore-8.0)
+[ローカライズされた ASP.NET Core アプリで要求ごとに言語またはカルチャを選択する戦略を実装する](https://learn.microsoft.com/ja-jp/aspnet/core/fundamentals/localization/select-language-culture?view=aspnetcore-8.0)
