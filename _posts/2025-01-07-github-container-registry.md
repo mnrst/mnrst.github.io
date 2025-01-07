@@ -92,7 +92,7 @@ Removing login credentials for ghcr.io
 
 ダウンロード数も確認できます。
 
-![2025-01-07-github-container-registry-01.png](2025-01-07-github-container-registry-01.png)
+![2025-01-07-github-container-registry-01.png](../assets/img/2025-01-07-github-container-registry-01.png)
 
 ## 参考
 
