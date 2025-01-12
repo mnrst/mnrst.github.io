@@ -7,7 +7,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-target-blank
+  - jekyll-extlinks
 header_pages:
   - about.md
 minima:
@@ -16,3 +16,5 @@ minima:
   social_links:
     - { platform: github,  user_url: "https://github.com/mnrst" }
     - { platform: twitter, user_url: "https://twitter.com/stmnr" }
+extlinks:
+  attributes: {rel: nofollow, target: _blank}
