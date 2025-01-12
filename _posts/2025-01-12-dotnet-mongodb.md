@@ -1,13 +1,13 @@
 ---
 layout: post
-title: .NET 8 コンソールアプリで MogoDB の Insert Update Find Delete をやってみた
+title: .NET 8 コンソールアプリで MongoDB の Insert Update Find Delete をやってみた
 ---
 
 NoSQL データベースの一種である MongoDB は、Azure Cosmos DB や MongoDB Atlas などで Free Tier があります。
 
 RDBMS が得意とする高度なトランザクション処理が不要なアプリケーションでは、コストやパフォーマンスが良いイメージです。
 
-そこで、.NET 8 コンソールアプリで MogoDB の Insert Update Find Delete を試してみました。
+そこで、.NET 8 コンソールアプリで MongoDB の Insert Update Find Delete を試してみました。
 
 ## 検証用の MongoDB を Docker で用意
 
