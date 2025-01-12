@@ -5,3 +5,7 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+img {
+  border: 1px solid black;
+}
