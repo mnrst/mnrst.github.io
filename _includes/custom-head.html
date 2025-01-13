@@ -1,1 +1,13 @@
 <link rel="icon" type="image/png" href="/assets/img/favicon-96.png" sizes="96x96" />
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const baseUrl = '{{ site.url }}{{ site.baseurl }}'.toLowerCase();
+    document.querySelectorAll('a').forEach(anchor => {
+      const href = anchor.href.toLowerCase();
+      if (!href.startsWith(baseUrl) && !href.startsWith('http://127.0.0.1') && !href.startsWith('mailto:') && !href.startsWith('tel:')) {
+        anchor.setAttribute('target', '_blank');
+        anchor.setAttribute('rel', 'noopener noreferrer');
+      }
+    });
+  });
+</script>
