@@ -4,10 +4,10 @@ theme: minima
 lang: ja
 google_analytics: G-9H171CX9NV
 plugins:
-  - jekyll-target-blank
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-target-blank
 header_pages:
   - about.md
 minima:
