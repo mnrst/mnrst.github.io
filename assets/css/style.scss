@@ -9,3 +9,105 @@
 img {
   border: 1px solid black;
 }
+
+/* 全体のスタイル */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* 優しい背景色 */
+  color: #333; /* 読みやすい文字色 */
+}
+
+/* ヘッダーのスタイル */
+header {
+  background-color: #4CAF50; /* モダンな緑色 */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* ナビゲーションバー */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #575757; /* ホバー時の色変更 */
+}
+
+/* メインコンテンツ */
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+main h2 {
+  color: #4CAF50; /* ヘッダーと統一感 */
+}
+
+main p {
+  margin-bottom: 20px;
+}
+
+/* ボタンスタイル */
+button {
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* ホバー時の色変更 */
+}
+
+/* フッターのスタイル */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* スマホで縦並びに */
+    }
+
+    main {
+        padding: 10px; /* スペース調整 */
+    }
+}
