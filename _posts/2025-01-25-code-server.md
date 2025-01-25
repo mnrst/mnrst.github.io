@@ -39,7 +39,7 @@ $ sudo systemctl status code-server@$USER
 $ sudo vi /etc/nginx/sites-available/default
 ```
 
-## nginx の リバースプロキシと WebSocket の設定例
+## nginx のリバースプロキシと WebSocket の設定例
 
 ```conf
 location / {
