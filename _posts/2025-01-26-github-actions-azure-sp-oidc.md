@@ -142,7 +142,7 @@ git push -u origin main
 
 リソースグループ情報を取得できました。
 
-![2025-01-26-github-actions-azure-sp-oidc-01.png](../assets/img/2025-01-26-github-actions-azure-sp-oidc-01.png)
+![2025-01-26-github-actions-azure-sp-oidc-01.png](/assets/img/2025-01-26-github-actions-azure-sp-oidc-01.png)
 
 ## 参考
 
