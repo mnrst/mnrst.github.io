@@ -18,3 +18,4 @@ minima:
     - { platform: twitter, user_url: "https://twitter.com/stmnr" }
 paginate: 10
 paginate_path: "page:num"
+show_excerpts: true
