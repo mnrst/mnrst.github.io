@@ -318,7 +318,7 @@
     }
     div {
       display: block;
-      padding: $spacing-unit;
+      padding: $spacing-unit * .25;
       border: 1px solid transparent;
 
       &.pager-edge {
