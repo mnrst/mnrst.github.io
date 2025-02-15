@@ -167,13 +167,13 @@ IDENTITY_ENDPOINT=http://169.254.130.3:8081/msi/token
 
 # Azure Instance Metadata Service の確認
 curl -H x-identity-header:$IDENTITY_HEADER \
-  "$IDENTITY_ENDPOINT?resource=https://vault.azure.net&api-version=2019-08-01" \
+  "$IDENTITY_ENDPOINT?resource=https://database.windows.net&api-version=2019-08-01" \
   | jq .
 
 {
   "access_token": "eyJ0e..........................SxYGQ",
   "expires_on": "1739660871",
-  "resource": "https://vault.azure.net",
+  "resource": "https://database.windows.net",
   "token_type": "Bearer",
   "client_id": "1449f973-6cff-4d90-b184-ee0648cc2523"
 }
@@ -321,13 +321,13 @@ IDENTITY_HEADER=da89ad08-dbf1-4852-b920-c672389c3b9d
 IDENTITY_ENDPOINT=http://169.254.131.5:8081/msi/token
 
 curl -H x-identity-header:$IDENTITY_HEADER \
-  "$IDENTITY_ENDPOINT?resource=https://vault.azure.net&api-version=2019-08-01" \
+  "$IDENTITY_ENDPOINT?resource=https://database.windows.net&api-version=2019-08-01" \
   | jq .
 
 {
   "access_token": "eyJ0e..........................T66mHg",
   "expires_on": "1739661867",
-  "resource": "https://vault.azure.net",
+  "resource": "https://database.windows.net",
   "token_type": "Bearer",
   "client_id": "18167057-ac51-4a5b-813b-1b766ec3668d"
 }
