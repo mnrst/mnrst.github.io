@@ -150,12 +150,13 @@ apt update
 apt install -y dnsutils bzip2 curl jq
 
 # 名前解決の確認
-nslookup mnrappsql-sqlsrv.privatelink.database.windows.net
+nslookup mnrappsql-sqlsrv.database.windows.net
 
 Server:         127.0.0.11
 Address:        127.0.0.11#53
 
 Non-authoritative answer:
+mnrappsql-sqlsrv.database.windows.net   canonical name = mnrappsql-sqlsrv.privatelink.database.windows.net.
 Name:   mnrappsql-sqlsrv.privatelink.database.windows.net
 Address: 10.0.0.68
 
@@ -307,12 +308,13 @@ apt update
 
 apt install -y dnsutils bzip2 curl jq wget
 
-nslookup mnrappsql-sqlsrv.privatelink.database.windows.net
+nslookup mnrappsql-sqlsrv.database.windows.net
 
 Server:         127.0.0.11
 Address:        127.0.0.11#53
 
 Non-authoritative answer:
+mnrappsql-sqlsrv.database.windows.net   canonical name = mnrappsql-sqlsrv.privatelink.database.windows.net.
 Name:   mnrappsql-sqlsrv.privatelink.database.windows.net
 Address: 10.0.0.68
 
