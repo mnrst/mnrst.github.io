@@ -70,7 +70,7 @@ Xcode や Andoroid Studio や JDK 17 がインストール済みで、ローカ�
 % dotnet build -t:Run -f net9.0-ios
 ```
 
-![dotnet9-maui-01.png](/assets/img/dotnet9-maui-01.png)
+![dotnet9-maui-01.png](/assets/img/2025-01-18-dotnet9-maui-01.png)
 
 ## Android の動作確認
 
@@ -78,7 +78,7 @@ Xcode や Andoroid Studio や JDK 17 がインストール済みで、ローカ�
 % dotnet build -t:Run -f net9.0-android
 ```
 
-![dotnet9-maui-02.png](/assets/img/dotnet9-maui-02.png)
+![dotnet9-maui-02.png](/assets/img/2025-01-18-dotnet9-maui-02.png)
 
 ## Mac の動作確認
 
@@ -86,7 +86,7 @@ Xcode や Andoroid Studio や JDK 17 がインストール済みで、ローカ�
 % dotnet build -t:Run -f net9.0-maccatalyst
 ```
 
-![dotnet9-maui-03.png](/assets/img/dotnet9-maui-03.png)
+![dotnet9-maui-03.png](/assets/img/2025-01-18-dotnet9-maui-03.png)
 
 ## Web アプリの動作確認
 
@@ -94,7 +94,7 @@ Xcode や Andoroid Studio や JDK 17 がインストール済みで、ローカ�
 % dotnet run --project mnrmaui.Web/mnrmaui.Web.csproj
 ```
 
-![dotnet9-maui-04.png](/assets/img/dotnet9-maui-04.png)
+![dotnet9-maui-04.png](/assets/img/2025-01-18-dotnet9-maui-04.png)
 
 ## 共通化されたコードの例
 
