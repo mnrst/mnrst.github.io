@@ -137,7 +137,6 @@ terraform apply
 ## Firebase CLI で Web アプリを作成
 
 ```bash
-```bash
 $ npm -v
 11.1.0
 
