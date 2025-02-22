@@ -215,4 +215,4 @@ Hosting URL: https://mnr-fb-test.web.app
 
 [Firebase CLI リファレンス](https://firebase.google.com/docs/cli?hl=ja)
 
-[google_firebase_web_app | Terraform](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/firebase_web_app)
+[google_firebase_web_app](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/firebase_web_app)
