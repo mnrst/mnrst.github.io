@@ -3,7 +3,7 @@ layout: post
 title: Terraform で Firebase プロジェクトと Web アプリを登録して CLI で静的サイトの Hosting を作ってみた
 ---
 
-最初は Web GUI で動作確認をしてから、同じパターンを何度も繰り返せるように CLI で作成手順を作成する事がよくあります。
+最初は Web GUI で動作確認をしてから、同じパターンを何度も繰り返せるように CLI で再現手順を作成する事がよくあります。
 
 今回は、Terraform で Firebase プロジェクトと Web アプリを登録して CLI で静的サイトの Hosting を作ってみました。
 
