@@ -2,6 +2,7 @@
 layout: page
 title: このブログについて
 permalink: /about/
+sitemap: false
 ---
 
 このブログは、個人的な興味で技術検証した内容を投稿しています。
