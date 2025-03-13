@@ -2,6 +2,6 @@
 permalink: /robots.txt
 layout: null
 ---
-Sitemap: {{ site.url }}/sitemap.xml
 User-agent: *
-Disallow:
+Allow: /sitemap.xml
+Sitemap: {{ site.url }}/sitemap.xml
