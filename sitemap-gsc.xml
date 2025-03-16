@@ -14,16 +14,8 @@ sitemap: false
   <url>
     <loc>https://mnrst.github.io{{ post.url }}</loc>
     <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  {% endfor %}
-  {% for page in site.pages %}
-  <url>
-    <loc>https://mnrst.github.io{{ page.url }}</loc>
-    <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
   </url>
   {% endfor %}
 </urlset>
