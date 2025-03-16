@@ -1,5 +1,5 @@
-jQuery(function() {
-    $.getJSON('/search_data.json', function(data) {
+jQuery(function () {
+    $.getJSON('/search_data.json', function (data) {
         const options = {
             keys: ['title', 'content'],
             includeScore: true,
@@ -7,7 +7,7 @@ jQuery(function() {
         };
         const fuse = new Fuse(data, options);
 
-        $("#site_search").submit(function(event) {
+        $("#site_search").submit(function (event) {
             event.preventDefault();
             const query = $("#search_box").val();
             const results = fuse.search(query);
@@ -18,7 +18,7 @@ jQuery(function() {
         // 検索結果表示関数
         function display_search_results(results) {
             const $search_results = $("#search_results");
-            $search_results.empty(); // 古い結果をクリア
+            $search_results.empty();
 
             if (results.length) {
                 results.forEach(({ item }) => {

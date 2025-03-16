@@ -7,7 +7,6 @@ sitemap: false
     {
       "id": {{ forloop.index }},
       "title": "{{ post.title | xml_escape }}",
-      "content": "{{ post.content | xml_escape }}",
       "date": "{{ post.date | xml_escape }}",
       "url": "{{ post.url | xml_escape }}"
     }{% unless forloop.last %},{% endunless %}
