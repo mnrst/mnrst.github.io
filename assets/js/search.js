@@ -4,7 +4,7 @@ jQuery(function() {
     window.idx = lunr(function () {
       this.field('id');
       this.field('title', { boost: 10 });
-      this.field('author');
+      this.field('date');
       this.field('category');
     });
   
@@ -43,7 +43,7 @@ jQuery(function() {
             var item = loaded_data[result.ref];
   
             // Build a snippet of HTML for this result
-            var appendString = '<li><a href="' + item.url + '">' + item.title + '</a></li>';
+            var appendString = '<li><a href="' + item.url + '">' + item.title + '</a> ' + item.date + '</li>';
   
             // Add it to the results
             $search_results.append(appendString);
