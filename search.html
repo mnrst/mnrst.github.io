@@ -4,9 +4,11 @@ sitemap: false
 ---
 
 <!-- https://jekylltips-ja.github.io/tutorials/search/ -->
-<form action="get" id="site_search">
-  <input type="text" id="search_box">
-  <input type="submit" value="Search">
+<form action="get" id="site_search" class="search-form">
+  <div class="search-container">
+    <input type="text" id="search_box" class="search-input" placeholder="検索キーワードを入力">
+    <button type="submit" class="search-button">検索</button>
+  </div>
 </form>
 <div>
   <ul id="search_results" class="post-list"></ul>
