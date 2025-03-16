@@ -22,7 +22,7 @@ jQuery(function () {
 
             if (results.length) {
                 results.forEach(({ item }) => {
-                    const appendString = `<li><a class="post-link" href="${item.url}">${item.title}</a> <span class="post-meta">${item.date.slice(0, 10)}</span></li>`;
+                    const appendString = `<li><span class="post-meta">${item.date}</span><a class="post-link" href="${item.url}">${item.title}</a></li>`;
                     $search_results.append(appendString);
                 });
             } else {
