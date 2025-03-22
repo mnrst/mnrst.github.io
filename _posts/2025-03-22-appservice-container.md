@@ -64,7 +64,7 @@ az webapp sitecontainers create \
 
 ## Azure ポータルでカスタムコンテナーを確認
 
-![2025-03-22-appservice-container-01.png](../assets/img/2025-03-22-appservice-container-01.png)
+![2025-03-22-appservice-container-01.png](/assets/img/2025-03-22-appservice-container-01.png)
 
 ## （おまけ）常時接続設定
 
